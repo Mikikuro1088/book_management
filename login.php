@@ -13,11 +13,11 @@
       <h1>使用者登入</h1>
       <div class="main">
         <label>帳號：</label>
-        <input type="email"  class="form-control" name="email">
+        <input type="email"  class="form-control" name="email" placeholder="請輸入帳號">
       </div>
       <div class="main">
         <label>密碼：</label>
-        <input type="text">
+        <input type="password" class="form-control" name="password" placeholder="請輸入密碼">
       </div>
       <div class="main">
         <button type="submit" class="btn btn-default" name="login">登入</button>
