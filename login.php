@@ -23,10 +23,16 @@
         <button type="submit" class="btn btn-default" name="login">登入</button>
       </div>
       <div class="main">
-        <input class="linkb" type="button" value="使用者註冊" onclick="location.herf='newber.php'">
+        <input class="linkb" type="button" value="使用者註冊" onclick="location.herf='newmember.php'">
       </div>
     </form>
   </div>
-  </main>
 </body>
 </html>
+
+<?php
+  if (!isset($_post['login'])) {
+      exit("")// 判定login是否被執行
+  }
+  
+ ?>
